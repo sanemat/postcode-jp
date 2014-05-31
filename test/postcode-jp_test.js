@@ -7,7 +7,7 @@ describe('fake implementation', function(){
   var postcode;
 
   before(function(done){
-    postcode = postcodeJp({ postcode: '060-0041' });
+    postcode = postcodeJp({ postcode: '0600041' });
     done();
   });
 
