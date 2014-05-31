@@ -1,17 +1,17 @@
 {
-  "name": "zipcode-jp",
+  "name": "postcode-jp",
   "version": "0.0.0",
-  "main": "lib/zipcode-jp.js",
+  "main": "lib/postcode-jp.js",
   "description": "The best module ever.",
-  "homepage": "https://github.com/sanemat/zipcode-jp",
-  "bugs": "https://github.com/sanemat/zipcode-jp/issues",
+  "homepage": "https://github.com/sanemat/postcode-jp",
+  "bugs": "https://github.com/sanemat/postcode-jp/issues",
   "author": {
     "name": "sanemat",
     "email": "o.gata.ken@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sanemat/zipcode-jp"
+    "url": "https://github.com/sanemat/postcode-jp"
   },
   "directories": {
     "test": "test/"
@@ -21,7 +21,7 @@
     "lib"
   ],
   "keywords": [
-    "zipcode",
+    "postcode",
     "jp",
     "address",
     "ken_all",

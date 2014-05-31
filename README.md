@@ -1,13 +1,13 @@
-# zipcode-jp [![Build Status](https://secure.travis-ci.org/sanemat/zipcode-jp.png?branch=master)](http://travis-ci.org/sanemat/zipcode-jp)
+# postcode-jp [![Build Status](https://secure.travis-ci.org/sanemat/postcode-jp.png?branch=master)](http://travis-ci.org/sanemat/postcode-jp)
 
 The best module ever.
 
 ## Getting Started
-Install the module with: `npm install zipcode-jp`
+Install the module with: `npm install postcode-jp`
 
 ```javascript
-var zipcode-jp = require('zipcode-jp');
-zipcode-jp.awesome(); // "awesome"
+var postcode-jp = require('postcode-jp');
+postcode-jp.awesome(); // "awesome"
 ```
 
 ## Documentation
