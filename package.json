@@ -17,7 +17,13 @@
   "files": [
     "lib"
   ],
-  "keywords": [],
+  "keywords": [
+    "zipcode",
+    "jp",
+    "address",
+    "ken_all",
+    "x-ken-all"
+  ],
   "devDependencies": {
     "grunt-contrib-jshint": "^0.10.0",
     "grunt-contrib-watch": "^0.6.1",
