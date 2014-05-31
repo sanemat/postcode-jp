@@ -1,0 +1,3 @@
+[submodule "x-ken-all"]
+	path = x-ken-all
+	url = https://github.com/sanemat/x-ken-all.git
