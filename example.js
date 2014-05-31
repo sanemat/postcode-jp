@@ -1,6 +1,7 @@
 var PostcodeJp = require('postcode-jp');
 
-var postcode = PostcodeJp({postcode: '060-0041'}, function(callback){
+var postcode = PostcodeJp({postcode: '060-0041'});
+postcode.addresses(function(callback){
   callback[0].pref;// => 北海道
   callback[0].region;// => 札幌市中央区
   callback[0].town;// => 大通東
