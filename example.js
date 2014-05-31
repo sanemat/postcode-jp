@@ -1,3 +1,10 @@
+var ZipcodeJp = require('zipcode-jp');
+
+var zipcode = ZipcodeJp({postcode: '060-0041'}, function(callback){
+  callback[0].pref;// => 北海道
+  callback[0].region;// => 札幌市中央区
+  callback[0].town;// => 大通東
+});
 
 //郵便番号データの説明 - 日本郵便 http://www.post.japanpost.jp/zipcode/dl/readme.html
 //郵便番号データファイルの形式等
