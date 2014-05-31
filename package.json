@@ -25,7 +25,8 @@
     "jp",
     "address",
     "ken_all",
-    "x-ken-all"
+    "x-ken-all",
+    "zipcode"
   ],
   "devDependencies": {
     "espower-loader": "^0.7.1",
