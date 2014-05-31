@@ -1,10 +1,11 @@
-var PostcodeJp = require('postcode-jp');
+var postcodeJp = require('postcode-jp');
 
-var postcode = PostcodeJp({postcode: '060-0041'});
-postcode.addresses(function(callback){
-  callback[0].pref;// => 北海道
-  callback[0].region;// => 札幌市中央区
-  callback[0].town;// => 大通東
+postcodeJp.addresses({postcode: '060-0041'}, function(callback){
+  var addresses = callback;
+  var address = addresses[0];
+  address.pref;// => 北海道
+  address.region;// => 札幌市中央区
+  address.town;// => 大通東
 });
 
 //郵便番号データの説明 - 日本郵便 http://www.post.japanpost.jp/zipcode/dl/readme.html
