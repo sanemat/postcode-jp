@@ -10,7 +10,10 @@ module.exports = function (grunt) {
   grunt.initConfig({
     mochaTest: {
       test: {
-        options: {},
+        options: {
+          require: 'intelli-espower-loader',
+          reporter: 'spec'
+        },
         src: ['test/**/*_test.js']
       }
     },

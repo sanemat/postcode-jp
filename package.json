@@ -13,6 +13,9 @@
     "type": "git",
     "url": "https://github.com/sanemat/zipcode-jp"
   },
+  "directories": {
+    "test": "test/"
+  },
   "license": "MIT",
   "files": [
     "lib"
@@ -25,12 +28,15 @@
     "x-ken-all"
   ],
   "devDependencies": {
+    "espower-loader": "^0.7.1",
     "grunt-contrib-jshint": "^0.10.0",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-mocha-test": "^0.10.2",
+    "intelli-espower-loader": "^0.1.0",
     "jshint-stylish": "^0.2.0",
     "load-grunt-tasks": "^0.4.0",
     "mocha": "^1.20.0",
+    "power-assert": "^0.7.2",
     "time-grunt": "^0.3.1"
   },
   "scripts": {
